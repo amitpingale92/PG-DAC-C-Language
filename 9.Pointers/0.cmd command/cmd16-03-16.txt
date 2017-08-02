@@ -1,0 +1,36 @@
+    1  vi funcptrtest.c
+    2  vi structptrtest2.c 
+    3  vi voidptrtest.c
+    4  cc -o voidptrtest voidptrtest.c
+    5  ./voidptrtest 
+    6  vi voidptrtest.c
+    7  cc -o voidptrtest voidptrtest.c
+    8  vi voidptrtest.c
+    9  cc -o voidptrtest voidptrtest.c
+   10  vi voidptrtest.c
+   11  cc -o voidptrtest voidptrtest.c
+   12  ./voidptrtest 
+   13  vi voidptrtest.c
+   14  rm voidptrtest*
+   15  ls
+   16  vi voidptrtest.c
+   17  cc -o voidptrtest voidptrtest.c
+   18  ./voidptrtest 
+   19  vi voidptrtest.c
+   20  cc -o voidptrtest voidptrtest.c
+   21  ./voidptrtest 
+   22  vi voidptrtest.c
+   23  cc -o voidptrtest voidptrtest.c
+   24  vi voidptrtest.c
+   25  cc -o voidptrtest voidptrtest.c
+   26  ./voidptrtest 
+   27  vi voidptrtest.c
+   28  cc -o voidptrtest voidptrtest.c
+   29  vi voidptrtest.c
+   30  cc -o voidptrtest voidptrtest.c
+   31  ./voidptrtest 
+   32  vi voidptrtest.c
+   33  cc -o voidptrtest voidptrtest.c
+   34  ./voidptrtest 
+   35  vi voidptrtest.c
+   36  history >cmd16-03-16.txt

@@ -1,0 +1,81 @@
+    1  cd Foundations/Fundamentals/C/
+    2  cd Basics/
+    3  vi box.h
+    4  vi box.c
+    5  cc -c box.c
+    6  vi box.h
+    7  cc -c box.c
+    8  vi box.h
+    9  cc -c box.c
+   10  vi box.h
+   11  vi box.c
+   12  cc -c box.c
+   13  vi functest2.c
+   14  cc -o functest2 functest2.c 
+   15  cc -o functest2 functest2.c box.o
+   16  ./functest2 
+   17  vi box.h
+   18  vi box.c
+   19  cc -c box.c
+   20  cc -o functest2 functest2.c box.o
+   21  vi box.h
+   22  vi box.c
+   23  cc -c box.c
+   24  cd ..
+   25  mkdir UDT
+   26  cd UDT/
+   27  cp ../Basics/box.h .
+   28  cp ../Basics/box.c .
+   29  vi box.h
+   30  vi box.c
+   31  cc -c box.c
+   32  cp ../Basics/functest2.c .
+   33  vi functest2.c 
+   34  mv functest2.c typedeftest1.c
+   35  vi typedeftest1.c 
+   36  cc -o typedeftest1 typedeftest1.c box.o
+   37  ./typedeftest1 
+   38  vi box.h
+   39  vi box.c
+   40  cc -c box.c
+   41  cp typedeftest1.c typedeftest2.c
+   42  vi typedeftest2.c 
+   43  cc -o typedeftest2 typedeftest2.c box.o
+   44  ./typedeftest2 
+   45  vi box.h
+   46  vi structtest.c
+   47  cc -o structtest structtest.c 
+   48  vi structtest.c
+   49  cc -o structtest structtest.c 
+   50  vi structtest.c
+   51  cc -o structtest structtest.c 
+   52  ./structtest 
+   53  echo $?
+   54  vi structtest.c
+   55  cc -o structtest structtest.c 
+   56  ./structtest 
+   57  vi structtest.c
+   58  cc -o structtest structtest.c 
+   59  ./structtest 
+   60  vi structtest.c
+   61  vi uniontest.c
+   62  cc -o uniontest uniontest.c 
+   63  ./uniontest 
+   64  echo $?
+   65  vi uniontest.c
+   66  cc -o uniontest uniontest.c 
+   67  ./uniontest 
+   68  vi uniontest.c
+   69  cc -o uniontest uniontest.c 
+   70  ./uniontest 
+   71  vi uniontest.c
+   72  cc -o uniontest uniontest.c 
+   73  ./uniontest 
+   74  vi uniontest.c
+   75  cc -o uniontest uniontest.c 
+   76  ./uniontest 
+   77  cp structtest.c structuniontest.c
+   78  vi structuniontest.c 
+   79  cc -o structuniontest structuniontest.c 
+   80  ./structuniontest 
+   81  history > cmd14-03-16.txt

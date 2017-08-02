@@ -1,0 +1,117 @@
+    1  cd C/Basics/
+    2  vi hello.c
+    3  ls
+    4  ls hello.c
+    5  echo $?
+    6  ls welcome.c
+    7  echo $?
+    8  vi hello.c
+    9  man puts
+   10  vi hello.c
+   11  cc -o hello hello.c 
+   12  vi hello.c
+   13  cc -o hello hello.c 
+   14  vi hello.c
+   15  cc -c hello.c 
+   16  ls
+   17  objdump -t hello.o
+   18  cc -o hello hello.c
+   19  ./hello 
+   20  vi hello.c
+   21  vi variabletest.c
+   22  cc -o variabletest variabletest.c 
+   23  ./variabletest 
+   24  vi variabletest.c
+   25  cc -o variabletest variabletest.c 
+   26  ./variabletest 
+   27  vi variabletest.c
+   28  cc -o variabletest variabletest.c 
+   29  ./variabletest 
+   30  vi variabletest.c
+   31  cc -c variabletest.c
+   32  objdump -t variabletest.o
+   33  vi variabletest.c
+   34  cc -c variabletest.c
+   35  objdump -t variabletest.o
+   36  vi variabletest.c
+   37  cc -c variabletest.c
+   38  objdump -t variabletest.o
+   39  vi variabletest.c
+   40  cc -o variabletest variabletest.c 
+   41  vi variabletest.c
+   42  rm *.o
+   43  cp variabletest.c variabletest1.c
+   44  rm variabletest
+   45  cc -o variabletest1 variabletest1.c 
+   46  cp variabletest1.c variabletest2.c
+   47  vi variabletest2.c 
+   48  cc -o variabletest2 variabletest2.c 
+   49  ./variabletest2 
+   50  cc -c variabletest2.c 
+   51  objdump -t variabletest2.o
+   52  objdump -t variabletest2
+   53  objdump -d variabletest2.o -M intel
+   54  vi arraytest.c
+   55  cc -o arraytest arraytest.c 
+   56  ./arraytest 
+   57  vi arraytest.c
+   58  cc -o arraytest arraytest.c 
+   59  ./arraytest 
+   60  cp arraytest.c iftest.c
+   61  vi iftest.c 
+   62  cc -o iftest iftest.c 
+   63  ./iftest 
+   64  vi iftest.c 
+   65  cp iftest.c ifelsetest1.c
+   66  vi ifelsetest1.c 
+   67  cc -o ifelsetest1 ifelsetest1.c 
+   68  ./ifelsetest1 
+   69  vi ifelsetest1.c 
+   70  cc -o ifelsetest1 ifelsetest1.c 
+   71  ./ifelsetest1 
+   72  vi ifelsetest1.c 
+   73  cc -o ifelsetest1 ifelsetest1.c 
+   74  vi ifelsetest2.c
+   75  cc -o ifelsetest2 ifelsetest2.c 
+   76  ./ifelsetest2 
+   77  vi ifelsetest2.c
+   78  cc -o ifelsetest2 ifelsetest2.c 
+   79  ./ifelsetest2 
+   80  vi ifelsetest2.c
+   81  cc -o ifelsetest2 ifelsetest2.c 
+   82  ./ifelsetest2 
+   83  vi ifelsetest2.c
+   84  cp ifelsetest2.c switchcasetest.c
+   85  vi switchcasetest.c 
+   86  cc -o switchcasetest switchcasetest.c 
+   87  ./switchcasetest 
+   88  vi whiletest.c
+   89  cc -o whiletest whiletest.c 
+   90  ./whiletest 
+   91  vi whiletest.c
+   92  vi inctest.c
+   93  cc -o inctest inctest.c 
+   94  ./inctest 
+   95  cp inctest.c ~/Shared/
+   96  vi inctest.c
+   97  cc -o inctest inctest.c 
+   98  ./inctest 
+   99  vi inctest.c
+  100  cc -o inctest inctest.c 
+  101  ./inctest 
+  102  rm inc*
+  103  ll
+  104  cp whiletest.c fortest.c
+  105  vi fortest.c 
+  106  cc -o fortest fortest.c 
+  107  ./fortest 
+  108  vi dowhiletest.c
+  109  vi whiletest.c 
+  110  cc -o whiletest whiletest.c 
+  111  vi fortest.c 
+  112  cc -o fortest fortest.c 
+  113  vi dowhiletest.c 
+  114  cc -o dowhiletest dowhiletest.c 
+  115  ./dowhiletest 
+  116  ls *.c
+  117  history > cmd11-03-16.txt 

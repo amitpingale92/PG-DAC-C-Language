@@ -1,0 +1,70 @@
+    1  cd Foundations/Fundamentals/Elements/
+    2  vi proctest.s
+    3  as -o proctest.o proctest.s
+    4  objdump -t proctest.o
+    5  vi proctest.s
+    6  ld -o proctest proctest.o system.o 
+    7  ld -o proctest proctest.o myproc.o system.o 
+    8  objdump -d proctest.o -M intel
+    9  objdump -d proctest -M intel
+   10  vi proctest.s
+   11  cp proctest.s stacktest.s
+   12  vi stacktest.s 
+   13  as -o stacktest.o stacktest.s 
+   14  ld -o stacktest stacktest.o myproc.o system.o 
+   15  ./stacktest 
+   16  ll
+   17  ll myproc*
+   18  ll proctest*
+   19  vi stacktest.s 
+   20  as -o stacktest.o stacktest.s 
+   21  ld -o stacktest stacktest.o myproc.o system.o 
+   22  ./stacktest 
+   23  vi stacktest.s 
+   24  as -o stacktest.o stacktest.s 
+   25  ld -o stacktest stacktest.o myproc.o system.o 
+   26  ./stacktest 
+   27  vi stacktest.s 
+   28  ulimit
+   29  ulimit -s
+   30  vi stacktest.s 
+   31  as -o stacktest.o stacktest.s 
+   32  ld -o stacktest stacktest.o myproc.o system.o 
+   33  cd ..
+   34  mkdir C
+   35  cd C/
+   36  mkdir Basics
+   37  cd Basics/
+   38  vi hello.c
+   39  ls
+   40  cc -S hello.c 
+   41  ls
+   42  vi hello.s
+   43  as -o hello.o hello.s
+   44  ls
+   45  ./hello.o
+   46  ld -o hello hello.o /usr/lib/crt*.o -dynamic-linker /lib/ld-linux.so.2 
+   47  ld -o hello hello.o /usr/lib/crt*.o -lc -dynamic-linker /lib/ld-linux.so.2 
+   48  ls
+   49  ll
+   50  ./hello 
+   51  ls
+   52  rm hello hello.o hello.s
+   53  ls
+   54  cc -o hello hello.c 
+   55  ls
+   56  ./hello 
+   57  vi hello.c
+   58  cc -E hello.c
+   59  cc -E hello.c > exp.txt
+   60  vi exp.txt 
+   61  ls
+   62  rm exp.txt 
+   63  rm hello
+   64  cc -save-temps -o hello hello.c 
+   65  ls
+   66  rm hello.i hello.o hello.s
+   67  ls
+   68  cc -o hello hello.c 
+   69  ./hello 
+   70  history > cmd10-03-16.txt

@@ -1,0 +1,141 @@
+    1  cd Foundations/Fundamentals/C/UDT/
+    2  vi box.h
+    3  vi box.c
+    4  vi typedeftest2.c 
+    5  vi enumtest.c
+    6  cp ../Basics/switchcasetest.c enumtest.c
+    7  vi enumtest.c
+    8  cc -o enumtest enumtest.c 
+    9  vi enumtest.c
+   10  cc -o enumtest enumtest.c 
+   11  ./enumtest 
+   12  vi enumtest.c
+   13  cc -o enumtest enumtest.c 
+   14  ./enumtest 
+   15  vi enumtest.c
+   16  cc -o enumtest enumtest.c 
+   17  ./enumtest 
+   18  vi enumtest.c
+   19  cc -o enumtest enumtest.c 
+   20  ./enumtest 
+   21  vi ptrtest.c
+   22  cc -o ptrtest ptrtest.c 
+   23  ./ptrtest 
+   24  vi ptrtest.c
+   25  cc -o ptrtest ptrtest.c 
+   26  ./ptrtest 
+   27  vi ptrtest.c
+   28  cc -o ptrtest ptrtest.c 
+   29  ./ptrtest 
+   30  vi ptrtest.c
+   31  cc -o ptrtest ptrtest.c 
+   32  ./ptrtest 
+   33  vi ptrtest.c
+   34  cc -o ptrtest ptrtest.c 
+   35  vi ptrtest.c
+   36  cc -o ptrtest ptrtest.c 
+   37  ./ptrtest 
+   38  vi ptrtest.c
+   39  cc -o ptrtest ptrtest.c 
+   40  vi ptrtest.c
+   41  cc -o ptrtest ptrtest.c 
+   42  rm ptrtest*
+   43  vi simpleptrtest.c
+   44  cc -o simpleptrtest simpleptrtest.c 
+   45  ./simpleptrtest 
+   46  vi simpleptrtest.c
+   47  cc -o simpleptrtest simpleptrtest.c 
+   48  ./simpleptrtest 
+   49  vi simpleptrtest.c
+   50  cc -o simpleptrtest simpleptrtest.c 
+   51  ./simpleptrtest 
+   52  cat simpleptrtest.c
+   53  vi simpleptrtest.c
+   54  cc -o simpleptrtest simpleptrtest.c 
+   55  ./simpleptrtest 
+   56  vi simpleptrtest.c
+   57  cc -o simpleptrtest simpleptrtest.c 
+   58  ./simpleptrtest 
+   59  vi simpleptrtest.c
+   60  cc -o simpleptrtest simpleptrtest.c 
+   61  ./simpleptrtest 
+   62  vi simpleptrtest.c
+   63  vi structptrtest1.c
+   64  cc -o structptrtest1 structptrtest1.c 
+   65  vi structptrtest1.c
+   66  cc -o structptrtest1 structptrtest1.c 
+   67  ./structptrtest1 
+   68  vi structptrtest1.c
+   69  ./structptrtest1 
+   70  cc -o structptrtest1 structptrtest1.c 
+   71  vi structptrtest1.c
+   72  ./structptrtest1 
+   73  cc -o structptrtest1 structptrtest1.c 
+   74  ./structptrtest1 
+   75  vi structptrtest1.c
+   76  cc -o structptrtest1 structptrtest1.c 
+   77  ./structptrtest1 
+   78  vi structptrtest1.c
+   79  cc -o structptrtest1 structptrtest1.c 
+   80  ./structptrtest1 
+   81  vi structptrtest1.c
+   82  cc -o structptrtest1 structptrtest1.c 
+   83  ./structptrtest1 
+   84  vi structptrtest1.c
+   85  cc -o structptrtest1 structptrtest1.c 
+   86  ./structptrtest1 
+   87  vi structptrtest1.c
+   88  cc -o structptrtest1 structptrtest1.c 
+   89  ./structptrtest1 
+   90  vi structptrtest1.c
+   91  cc -o structptrtest1 structptrtest1.c 
+   92  vi structptrtest1.c
+   93  cc -o structptrtest1 structptrtest1.c 
+   94  ./structptrtest1 
+   95  vi structptrtest1.c
+   96  mv simpleptrtest.c simpleptrtest1.c
+   97  rm simpleptrtest
+   98  cc -o simpleptrtest1 simpleptrtest1.c 
+   99  vi simpleptrtest1.c 
+  100  cp simpleptrtest1.c simpleptrtest2.c
+  101  vi simpleptrtest2.c 
+  102  cc -o simpleptrtest2 simpleptrtest2.c 
+  103  ./simpleptrtest2 
+  104  vi simpleptrtest2.c 
+  105  cc -o simpleptrtest2 simpleptrtest2.c 
+  106  ./simpleptrtest2 
+  107  vi simpleptrtest2.c 
+  108  cc -o simpleptrtest2 simpleptrtest2.c 
+  109  ./simpleptrtest2 
+  110  vi simpleptrtest2.c 
+  111  cc -o simpleptrtest2 simpleptrtest2.c 
+  112  ./simpleptrtest2 
+  113  cp structptrtest1.c structptrtest2.c
+  114  vi structptrtest2.c 
+  115  cc -o structptrtest2 structptrtest2.c 
+  116  vi structptrtest2.c 
+  117  cc -o structptrtest2 structptrtest2.c 
+  118  ./structptrtest2 
+  119  vi structptrtest2.c 
+  120  cc -o structptrtest2 structptrtest2.c 
+  121  ./structptrtest2 
+  122  vi structptrtest2.c 
+  123  vi funcptrtest.c
+  124  cc -o funcptrtest funcptrtest.c 
+  125  ./funcptrtest 
+  126  vi funcptrtest.c
+  127  cc -o funcptrtest funcptrtest.c 
+  128  ./funcptrtest 
+  129  vi funcptrtest.c
+  130  cc -o funcptrtest funcptrtest.c 
+  131  ./funcptrtest 
+  132  vi funcptrtest.c
+  133  cc -o funcptrtest funcptrtest.c 
+  134  ./funcptrtest 
+  135  vi funcptrtest.c
+  136  cc -o funcptrtest funcptrtest.c 
+  137  ./funcptrtest 
+  138  vi funcptrtest.c
+  139  cc -o funcptrtest funcptrtest.c 
+  140  vi funcptrtest.c
+  141  history > cmd15-03-16.txt 
